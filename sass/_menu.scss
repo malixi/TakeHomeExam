@@ -107,12 +107,12 @@ $white: #fff;
 
 .section-1{
     background-color: $white;
-    padding: 30px 0 90px;
+    padding: 0 0 90px;
 
 
     .content-desc img {
-      height: 50px;
       width: 50px;
+      height: 50px;
       display: block;
       margin: 0 auto 30px;
       border: 0;
@@ -135,7 +135,7 @@ $white: #fff;
 }
 
 .title{
-  padding-top: 15vh;
+  padding-top: 12vh;
   text-align: center;
   color: $lightgray;
   font-weight: 300;
@@ -199,6 +199,7 @@ $white: #fff;
       font-weight: 300;
       min-height: 230px;
       font-size: 14px;
+      color: $lightgray;
     }
 
     .s2-button{
@@ -215,6 +216,28 @@ $white: #fff;
       text-decoration: none;
     }
   }
+
+
+}
+
+
+.section3{
+  background-color: $white;
+  padding: 0 0 90px;
+
+  .s3-button{
+    background-color: $primary;
+    text-align: center;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: $white;
+    min-height: 30px;
+    padding: 10px 0;
+    text-decoration: none;
+    width: 360px;
+    top: 10%;
+  }
+
 
 
 }
