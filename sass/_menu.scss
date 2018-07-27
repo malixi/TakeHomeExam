@@ -20,7 +20,7 @@
 
 
 
-    .bounceUp_container{
+    .slideup{
 
       position:absolute;
       text-transform: uppercase;
@@ -28,26 +28,26 @@
       line-height: 50px;
       font-weight: 800;
       width:100%;
-      height:20rem;
+      height:17rem;
       padding:2rem;
       overflow:hidden;
 
-      .headline1{
+      .hl1{
         margin-bottom:2rem;
       }
-      .hText1{
+      .h-1{
         margin-top:35%;
-        animation:bounceUp 5s linear infinite;
+        animation:slideUp 5s linear infinite;
       }
 
     }
-    .headline_desc{
+    .description{
       width:60%;
       font-size:16px;
       margin-top:30%;
       padding:2rem;
 
-      .headline3{
+      .hl3{
         background-color:$primary;
         width:15rem;
         text-align:center;
@@ -60,6 +60,19 @@
     }
   }
 
+  // .arrowleft{
+  //   img{
+  //     width:30px;
+  //     height:24px;
+  //     transform: rotate(-90deg);
+  //     float: right;
+  //     cursor: pointer;
+  //     display: block;
+  //     margin:auto;
+  //     margin-top:15vh;
+  //   }
+  // }
+
   .arrowdown{
 
     img{
@@ -71,16 +84,18 @@
     }
   }
 
-  // @keyframes bounceUp{
-  //   0%{transform: translateY(0%)}
-  //   40%{transform: translateY(-120%)}
-  //   50%{transform: translateY(-120%)}
-  //   60%{transform: translateY(-120%)}
-  //   70%{transform: translateY(-120%)}
-  //   100%{transform: translateY(-400%)}
-  // }
+  @keyframes slideUp{
+    0%{transform: translateY(0%)}
+    25%{transform: translateY(-120%)}
+    50%{transform: translateY(-120%)}
+    75%{transform: translateY(-120%)}
+    100%{transform: translateY(-400%)}
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+  }
 
+}
 
-
-
+.section1{
+  
 }

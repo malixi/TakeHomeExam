@@ -1,13 +1,18 @@
 .home .center_logo img { display: block; margin: auto; margin-top: 10%; width: 421px; height: 420px; }
 .home .intro { color: #FFFFFF; position: absolute; margin-left: 5rem; margin-top: -30%; width: 60%; }
-.home .intro .bounceUp_container { position: absolute; text-transform: uppercase; font-size: 60px; line-height: 50px; font-weight: 800; width: 100%; height: 20rem; padding: 2rem; overflow: hidden; }
-.home .intro .bounceUp_container .headline1 { margin-bottom: 2rem; }
-.home .intro .bounceUp_container .hText1 { margin-top: 35%; animation: bounceUp 5s linear infinite; }
-.home .intro .headline_desc { width: 60%; font-size: 16px; margin-top: 30%; padding: 2rem; }
-.home .intro .headline_desc .headline3 { background-color: #D51130; width: 15rem; text-align: center; }
-.home .intro .headline_desc .headline3 p { padding: .5rem; font-weight: 700; }
+.home .intro .slideup { position: absolute; text-transform: uppercase; font-size: 60px; line-height: 50px; font-weight: 800; width: 100%; height: 17rem; padding: 2rem; overflow: hidden; }
+.home .intro .slideup .hl1 { margin-bottom: 2rem; }
+.home .intro .slideup .h-1 { margin-top: 35%; animation: slideUp 5s linear infinite; }
+.home .intro .description { width: 60%; font-size: 16px; margin-top: 30%; padding: 2rem; }
+.home .intro .description .hl3 { background-color: #D51130; width: 15rem; text-align: center; }
+.home .intro .description .hl3 p { padding: .5rem; font-weight: 700; }
 .home .arrowdown img { width: 30px; height: 24px; display: block; margin: auto; margin-top: 15vh; }
-
+@keyframes slideUp { 0% { transform: translateY(0%); }
+  25% { transform: translateY(-120%); }
+  50% { transform: translateY(-120%); }
+  75% { transform: translateY(-120%); }
+  100% { transform: translateY(-400%); }
+  animation-timing-function: ease-in-out; -webkit-animation-timing-function: ease-in-out; }
 * { margin: 0; padding: 0; }
 
 body { background-image: url("../images/bg-image1.jpg"); background-attachment: fixed; background-size: 100%; background-repeat: no-repeat; font-family: open-sans, sans-serif; font-size: 14px; line-height: 1.3rem; box-sizing: border-box; }
