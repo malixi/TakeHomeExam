@@ -1,4 +1,8 @@
+$fontfamily: 'Open Sans', sans-serif;
+$lightgray: #666666;
+
 .home{
+  padding-bottom: 5%;
   .center_logo{
 
     img{
@@ -96,6 +100,30 @@
 
 }
 
-.section1{
-  
+.white-bg{
+    min-height: 700px;
+    background-color: $white;
+
+    .title{
+      padding-top: 15vh;
+      text-align: center;
+      color: $lightgray;
+      font-weight: 300;
+
+    }
+
+    .title h2 {
+      font-family: $fontfamily;
+      font-size: 35px;
+      padding-bottom: 2rem;
+    }
+
+    .title p {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 300;
+      color: inherit;
+      margin: 0 15%;
+      width: auto;
+    }
 }

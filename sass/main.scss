@@ -3,7 +3,7 @@
 $primary: #D51130;
 $white: #FFFFFF;
 $gray: #666666;
-$fontfamily: open-sans, sans-serif;
+$fontfamily: 'Open Sans', sans-serif;
 
 // IMPORT
 @import "menu";
@@ -12,6 +12,8 @@ $fontfamily: open-sans, sans-serif;
   margin:0;
   padding:0;
 }
+
+
 
 
 body{
