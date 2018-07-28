@@ -38,6 +38,7 @@
 
 .section3 { background-color: #fff; padding: 0 0 90px; }
 .section3 .s3-button { background-color: #D51130; text-align: center; font-weight: 700; text-transform: capitalize; color: #fff; min-height: 30px; padding: 10px 0; text-decoration: none; width: 360px; top: 10%; }
+.section3 .date { background-color: #D51130; width: 100px; color: #fff; font-family: "Open Sans", sans-serif; }
 
 * { margin: 0; padding: 0; }
 
