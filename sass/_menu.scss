@@ -238,13 +238,30 @@ $white: #fff;
     top: 10%;
   }
 
+  .section3-content{
+    margin-top: 10%;
+  }
+
   .date {
     background-color: $primary;
     width: 100px;
     color: $white;
     font-family: $fontfamily;
+    padding: 10px;
   }
 
+  .num{
+    font-size: 32px;
+    position: relative;
+    top: 10px;
+  }
+
+  .mmyy{
+    position: absolute;
+    width: 50px;
+    margin-left: 5px;
+    line-height: 13px;
+  }
 
 
 }
