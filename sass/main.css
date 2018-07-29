@@ -58,7 +58,7 @@
 .section5 .left { float: left; transform: rotate(180deg); }
 .section5 .author { font-weight: bold; font-style: "Open Sans", sans-serif; color: #666666; margin-left: 10px; }
 
-.section6 { padding: 0 0 90px; background-image: url("../images/thumbnail_1.jpg"); background-attachment: fixed; background-size: 100%; background-repeat: no-repeat; }
+.section6 { padding: 0 0 90px; background-image: url("../images/thumbnail_1.jpg"); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; }
 .section6 .title { color: #fff; line-height: 24px; font-size: 16px; }
 .section6 .contact { color: #fff; font-family: "Open Sans", sans-serif; font-weight: 300; }
 .section6 .contact h6 { font-size: 14px; }
@@ -71,9 +71,16 @@
 .section7 .sitemap h2 { font-family: "Open Sans", sans-serif; text-transform: uppercase; color: #666666; font-weight: 700; font-size: 13px; padding: 0; margin: 0; }
 .section7 .sitemap p { font-weight: 300; padding: 0; margin: 0; font-size: 13px; }
 
+.footer { background-color: #DADADA; }
+.footer ul { list-style-type: none; margin-top: 15px; font-size: 13px; font-weight: 300; font-family: "Open Sans", sans-serif; }
+.footer li { display: inline-block; margin: 0 15px; }
+.footer li a { text-decoration: none; color: #666666; }
+.footer a:hover { color: #D51130; }
+.footer .copyright { margin-top: 15px; font-size: 13px; font-weight: 300; color: #666666; text-align: right; }
+
 * { margin: 0; padding: 0; }
 
-body { background-image: url("../images/bg-image1.jpg"); background-attachment: fixed; background-size: 100%; background-repeat: no-repeat; font-family: "Open Sans", sans-serif; font-size: 14px; line-height: 1.3rem; box-sizing: border-box; }
+body { background-image: url("../images/bg-image1.jpg"); background-attachment: fixed; background-size: 100%; background-repeat: no-repeat; font-family: "Open Sans", sans-serif; }
 
 .navbar { padding: 0; margin: 0; }
 
