@@ -346,4 +346,40 @@ $white: #fff;
     transform: rotate(180deg);
   }
 
+  .author{
+    font-weight: bold;
+    font-style: $fontfamily;
+    color: $lightgray;
+    margin-left: 10px;
+  }
+
+}
+
+.section6{
+  padding: 0 0 90px;
+  background-image: url('../images/thumbnail_1.jpg');
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  .title{
+    color: $white;
+    line-height: 24px;
+    font-size: 16px;
+  }
+
+  .contact{
+    color: $white;
+    font-family: $fontfamily;
+    font-weight: 300;
+  }
+
+  .contact h6{
+    font-size: 14px;
+  }
+
+  .contact p{
+    font-size: 32px;
+    line-height: 38px;
+  }
 }
