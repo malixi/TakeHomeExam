@@ -64,6 +64,13 @@
 .section6 .contact h6 { font-size: 14px; }
 .section6 .contact p { font-size: 32px; line-height: 38px; }
 
+.section7 { background-color: #fff; }
+.section7 .logo { display: block; margin-top: 10vh; padding-bottom: 10%; width: 100%; }
+.section7 .logo img { width: 100px; height: 100px; }
+.section7 .sitemap { margin-top: 10vh; border-right: 1px solid #D51130; text-align: right; height: 110px; }
+.section7 .sitemap h2 { font-family: "Open Sans", sans-serif; text-transform: uppercase; color: #666666; font-weight: 700; font-size: 13px; padding: 0; margin: 0; }
+.section7 .sitemap p { font-weight: 300; padding: 0; margin: 0; font-size: 13px; }
+
 * { margin: 0; padding: 0; }
 
 body { background-image: url("../images/bg-image1.jpg"); background-attachment: fixed; background-size: 100%; background-repeat: no-repeat; font-family: "Open Sans", sans-serif; font-size: 14px; line-height: 1.3rem; box-sizing: border-box; }

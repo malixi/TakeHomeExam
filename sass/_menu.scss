@@ -383,3 +383,44 @@ $white: #fff;
     line-height: 38px;
   }
 }
+
+.section7{
+  background-color: $white;
+
+  .logo{
+    display: block;
+    margin-top: 10vh;
+    padding-bottom: 10%;
+    width: 100%;
+  }
+
+  .logo img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .sitemap{
+    margin-top: 10vh;
+    border-right: 1px solid $primary;
+    text-align: right;
+    height: 110px;
+  }
+
+  .sitemap h2{
+    font-family: $fontfamily;
+    text-transform: uppercase;
+    color: $lightgray;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .sitemap p{
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+  }
+
+}
