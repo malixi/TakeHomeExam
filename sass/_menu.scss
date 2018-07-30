@@ -375,7 +375,7 @@ $white: #fff;
   padding: 0 0 90px;
 
   .s5-icon{
-    margin-top: 30%;
+    margin-top: 20%;
     position: relative;
     display: flex;
   }
@@ -521,6 +521,18 @@ $white: #fff;
     text-align: right;
   }
 
+}
+
+
+// mobile hamburger
+
+.navbar-toggler{
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler-icon{
+  margin: 30% 0;
 }
 
 .fadeInLeft_animation{

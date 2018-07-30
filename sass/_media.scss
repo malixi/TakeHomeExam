@@ -1,11 +1,71 @@
-@media (max-width: 1024px) {
+@media (max-device-width: 1024px) {
   .navbar-nav{
     background-color: $white;
   }
 }
 
+@media (max-device-width: 320px) {
+      .section4{
+        .square{
+          position: absolute;
+          height: 120px;
+          width: 120px;
+          right: 0;
+          left: 125px;
+          top: 0;
+        }
 
-@media (max-width: 576px)  {
+        .square-title{
+          position: absolute;
+          right: 0;
+          left: 195px;
+          top: 45px;
+        }
+      }
+}
+
+@media only screen and (min-device-width:321px) and (max-device-width:990px)  {
+      .section4{
+        .square{
+          position: absolute;
+          height: 120px;
+          width: 120px;
+          right: 0;
+          left: 160px;
+          top: 25px;
+        }
+
+        .square-title{
+          position: absolute;
+          right: 0;
+          left: 232px;
+          top: 70px;
+        }
+      }
+}
+
+// @media (min-device-width: 425px) {
+//       .section4{
+//         .square{
+//           position: absolute;
+//           height: 120px;
+//           width: 120px;
+//           right: 0;
+//           left: 160px;
+//           top: 25px;
+//         }
+//
+//         .square-title{
+//           position: absolute;
+//           right: 0;
+//           left: 232px;
+//           top: 70px;
+//         }
+//       }
+// }
+
+
+@media (max-device-width: 576px)  {
     .container{
       margin: 0 20px;
     }
@@ -98,26 +158,29 @@
       padding: 20px 0;
     }
 
-    .square{
-      position: absolute;
-      height: 100px;
-      width: 100px;
-      top: 1%;
-      right: -25%;
-    }
 
-    .square-title{
-      font-size: 15px;
-    }
-
-    .square-title{
-      display: none;
-    }
   }
 
   .section5{
+
+    .s5-icon{
+      margin:0 20%;
+    }
+
+
+    .s5-icon-img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     .quote p{
       font-size: 1rem;
+    }
+
+    .s5-icon{
+      display: unset;
+      text-align: center;
     }
 
   }
@@ -130,7 +193,8 @@
     .s6-contact{
       margin-top: 5%;
       text-align: center;
-      padding: 0 60px;
+      padding: 0 23%;
+      width: auto;
     }
 
   }

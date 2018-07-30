@@ -20,3 +20,17 @@ $(window).on('scroll', function(){
   });
 
 });
+
+
+$(document).ready(function() {
+    $("body").backgroundCycle({
+        imageUrls: [
+            './images/bg-image1.jpg',
+            './images/bg-image1.jpg',
+            './images/bg-image1.jpg'
+        ],
+        fadeSpeed: 2000,
+        duration: 5000,
+        backgroundSize: SCALING_MODE_COVER
+    });
+});
