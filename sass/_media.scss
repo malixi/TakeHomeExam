@@ -1,11 +1,16 @@
-@media (max-width: 320px) {
+@media (max-width: 1024px) {
+  .navbar-nav{
+    background-color: $white;
+  }
+}
+
+
+@media (max-width: 576px)  {
     .container{
       margin: 0 20px;
     }
 
-    .navbar-nav{
-      background-color: $white;
-    }
+
 
     .landing_page{
 
@@ -162,6 +167,10 @@
       display: flex;
       justify-content: center;
       margin: 5px 0;
+    }
+
+    .copyright{
+      text-align: center;
     }
   }
 
