@@ -1,4 +1,3 @@
-// VARIABLES
 
 $primary: #D51130;
 $white: #FFFFFF;
@@ -7,22 +6,20 @@ $fontfamily: 'Open Sans', sans-serif;
 
 // IMPORT
 @import "menu";
+@import "media";
 
 *{
   margin:0;
   padding:0;
+  box-sizing: border-box;
 }
-
-
-
-
-
 
 body{
   background-image: url('../images/bg-image1.jpg');
   background-attachment: fixed;
-  background-size: 100%;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   font-family: $fontfamily;
 
 }
