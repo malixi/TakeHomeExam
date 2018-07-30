@@ -7,30 +7,30 @@ $(window).on('scroll', function(){
   }
 });
 
-$(window).on('scroll', function(){
+var images=new Array('./images/slideshow1.jpg','./images/slideshow2.jpg','./images/slideshow3.jpg','./images/slideshow4.jpg','./images/slideshow5.jpg');
+var nextimage=0;
+slideshow();
 
-  $('.fadetoleft').each(function(){
-    let pos = $(this).offset().top,
-        height = $(this).height(),
-        topOfWindow = $(window).scrollTop();
-
-    if(pos < topOfWindow + height && pos + height > topOfWindow){
-      $(this).addClass('fadeInLeft_animation');
-    }
-  });
-
-});
-
-
-$(document).ready(function() {
-    $("body").backgroundCycle({
-        imageUrls: [
-            './images/bg-image1.jpg',
-            './images/bg-image1.jpg',
-            './images/bg-image1.jpg'
-        ],
-        fadeSpeed: 2000,
-        duration: 5000,
-        backgroundSize: SCALING_MODE_COVER
+function slideshow(){
+    if(nextimage>=images.length){nextimage=0;}
+    $('.section6')
+    .css('background-image','url("'+images[nextimage++]+'")')
+    .fadeIn(3000,function(){
+        setTimeout(slideshow,6000);
     });
-});
+
+
+}
+
+function slideshow(){
+    if(nextimage>=images.length){nextimage=0;}
+    $('.main-page')
+    .css('background-image','url("'+images[nextimage++]+'")')
+    .fadeIn(3000,function(){
+        setTimeout(slideshow,6000);
+    });
+
+
+
+
+}

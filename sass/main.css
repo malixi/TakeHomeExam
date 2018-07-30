@@ -116,7 +116,9 @@
   .footer .copyright { text-align: center; } }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
-body { background-image: url("../images/bg-image1.jpg"); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; font-family: "Open Sans", sans-serif; }
+body { font-family: "Open Sans", sans-serif; }
+
+.main-page { background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; }
 
 .navbar { padding: 0; margin: 0; }
 
