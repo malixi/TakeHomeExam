@@ -3,6 +3,10 @@
       margin: 0 20px;
     }
 
+    .navbar-nav{
+      background-color: $white;
+    }
+
     .landing_page{
 
       .landing-title{
@@ -36,7 +40,10 @@
 
     }
 
-    .section2{
+    .section-2{
+      .box{
+        margin-bottom: 10%;
+      }
 
 
     }
@@ -77,6 +84,7 @@
       padding: 0;
       width: 80%;
       text-align: center;
+      margin-bottom: 5%;
 
     }
 
@@ -95,7 +103,65 @@
 
     .square-title{
       font-size: 15px;
+    }
 
+    .square-title{
+      display: none;
+    }
+  }
+
+  .section5{
+    .quote p{
+      font-size: 1rem;
+    }
+
+  }
+
+  .section6{
+    .contact p{
+      font-size: 15px;
+    }
+
+    .s6-contact{
+      margin-top: 5%;
+      text-align: center;
+      padding: 0 60px;
+    }
+
+  }
+
+  .section7{
+    .logo{
+      text-align: center;
+    }
+    .sitemap{
+      border-right: none;
+      text-align: center;
+      font-size: 20px;
+      padding: 0 20px;
+      margin-top: 5px;
+
+    }
+
+    .sitemap h2{
+      font-size: 15px;
+    }
+
+    .sitemap p{
+      font-size: 13px;
+    }
+
+  }
+
+  .footer{
+    ul {
+      font-size: 15px;
+    }
+
+    li{
+      display: flex;
+      justify-content: center;
+      margin: 5px 0;
     }
   }
 
