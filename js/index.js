@@ -36,32 +36,32 @@ function bgslideshow(){
 
 //fade left to right
 
-$(window).on('scroll', function(){
-
-  $('.leftToRight').each(function(){
-    let pos = $(this).offset().top,
-        height = $(this).height(),
-        topOfWindow = $(window).scrollTop();
-
-    if(pos < topOfWindow + height && pos + height > topOfWindow){
-      $(this).addClass('fadeToLeft');
-    }
-  });
-
-});
+// $(window).on('scroll', function(){
+//
+//   $('.leftToRight').each(function(){
+//     let pos = $(this).offset().top,
+//         height = $(this).height(),
+//         topOfWindow = $(window).scrollTop();
+//
+//     if(pos < topOfWindow + height && pos + height > topOfWindow){
+//       $(this).addClass('fadeToLeft');
+//     }
+//   });
+//
+// });
 
 //fade right to left
-$(window).on('scroll', function(){
-  $('.rightToLeft').each(function(){
-    let pos = $(this).offset().top,
-        height = $(this).height(),
-        topOfWindow = $(window).scrollTop();
-
-    if(pos < topOfWindow + height && pos + height > topOfWindow){
-      $(this).addClass('fadeInRight_animation');
-    }
-  });
-});
+// $(window).on('scroll', function(){
+//   $('.rightToLeft').each(function(){
+//     let pos = $(this).offset().top,
+//         height = $(this).height(),
+//         topOfWindow = $(window).scrollTop();
+//
+//     if(pos < topOfWindow + height && pos + height > topOfWindow){
+//       $(this).addClass('fadeInRight_animation');
+//     }
+//   });
+// });
 
 //scroll top
 
@@ -78,3 +78,26 @@ $('.footer-btn').click(function(){
      $('nav').removeClass('white');
    }
  });
+
+
+ var appearing_content2 = 'animated fadeInLeft';
+
+	(function($, win) {
+		$.fn.inViewport = function(cb) {
+			return this.each(function(i,el) {
+				function visPx() {
+					var H = $(this).height(),
+					r = el.getBoundingClientRect(),
+					t = r.top,
+					b = r.bottom;
+					return cb.call(el, Math.max(0, t>0? H-t : (b<H?b:H)));
+				}
+				visPx();
+			$(win).on("resize scroll", visPx);
+			});
+		};
+	}(jQuery, window));
+
+	$(".leftToRight").inViewport(function(px) {
+		if(px) $(this).addClass(appearing_content2);
+	});

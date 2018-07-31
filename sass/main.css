@@ -89,12 +89,20 @@
 
 .fadeToLeft { animation: fadeToLeft 3s ease-in-out 1 forwards; }
 
-@keyframes fadeToLeft { 0% { opacity: 0; transform: translateX(25px); }
-  100% { opacity: 1; transform: translate(0px); } }
+@keyframes fadeToLeft { 0% { opacity: 0; -webkit-transform: translateX(-20px); -ms-transform: translateX(-20px); transform: translateX(-20px); }
+  100% { opacity: 1; -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); } }
 .fadeInRight_animation { animation: fadeInRight 3s ease-in-out 1 forwards; }
 
 @keyframes fadeInRight { 0% { opacity: 0; transform: translateX(-25px); }
   100% { opacity: 1; transform: translate(0px); } }
+.animated { -webkit-animation-duration: 1s; animation-duration: 3s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
+
+@-webkit-keyframes fadeInLeft { 0% { opacity: 0; -webkit-transform: translateX(-20px); transform: translateX(-20px); }
+  100% { opacity: 1; -webkit-transform: translateX(0); transform: translateX(0); } }
+@keyframes fadeInLeft { 0% { opacity: 0; -webkit-transform: translateX(-20px); -ms-transform: translateX(-20px); transform: translateX(-20px); }
+  100% { opacity: 1; -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); } }
+.fadeInLeft { -webkit-animation-name: fadeInLeft; animation-name: fadeInLeft; }
+
 @media (max-device-width: 1024px) { .navbar-nav { background-color: #fff; }
   nav { font-size: 12px; font-weight: 600; }
   nav .navbar-brand img { padding-left: 2rem; width: 250px; height: 50px; }
