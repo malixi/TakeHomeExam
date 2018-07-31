@@ -5,7 +5,7 @@ $gray: #666666;
 $fontfamily: 'Open Sans', sans-serif;
 
 // IMPORT
-@import "menu";
+@import "style";
 @import "media";
 
 *{
@@ -20,6 +20,7 @@ body{
 }
 
 .main-page{
+  background-image: url("../images/slideshow1.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

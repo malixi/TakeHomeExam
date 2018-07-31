@@ -14,7 +14,7 @@ $white: #fff;
   .landing-title{
     position:absolute;
     text-transform: uppercase;
-    font-size: 10vh;
+    font-size: 3rem;
     line-height: 50px;
     font-weight: 800;
     height:30%;
@@ -23,7 +23,7 @@ $white: #fff;
   }
 
   .h-1{
-      margin-top:35%;
+      margin-top:40%;
       animation:landing-title 5s linear infinite;
       }
 
@@ -45,7 +45,7 @@ $white: #fff;
     font-weight: 700;
     text-align: center;
     padding: .5rem;
-    width: 20%;
+    width: 10rem;
   }
 
    .logo img {
@@ -129,7 +129,7 @@ $white: #fff;
     width: 100%;
     object-fit: cover;
     display: block;
-    background: linear-gradient(to bottom,rgba(0,0,0,0) 40%,rgba(0,0,0,0.8) );
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
   }
 
   .section2-title{
@@ -216,7 +216,7 @@ $white: #fff;
   .num{
     font-size: 32px;
     position: relative;
-    top: 10px;
+    top: 7px;
   }
 
   .mmyy{
@@ -329,6 +329,7 @@ $white: #fff;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
 
   .title{
     color: $white;
@@ -372,6 +373,7 @@ $white: #fff;
     border-right: 1px solid $primary;
     text-align: right;
     height: 110px;
+    padding-right: 5%;
   }
 
   .sitemap h2{
