@@ -112,7 +112,10 @@
   nav #navbar .navbar-nav .dropdown:hover > .dropdown-menu { display: block; }
   nav #navbar .navbar-nav .dropdown-item:nth-child(1) { display: none; }
   nav #navbar .navbar-nav .dropdown-item:hover { background-color: #D51130; }
-  nav #navbar .navbar-nav .nohover { pointer-events: none; } }
+  nav #navbar .navbar-nav .nohover { pointer-events: none; }
+  .section4 { width: 100%; height: auto; }
+  .section4 .square { position: absolute; height: 140px; width: 120px; right: 0; left: 88%; top: 2%; }
+  .section4 .square-title { position: absolute; right: 0; left: 92%; top: 66px; } }
 @media (max-device-width: 320px) { .section4 .square { position: absolute; height: 120px; width: 120px; right: 0; left: 125px; top: 0; }
   .section4 .square-title { position: absolute; right: 0; left: 195px; top: 45px; } }
 @media only screen and (min-device-width: 321px) and (max-device-width: 990px) { .section4 .square { position: absolute; height: 120px; width: 120px; right: 0; left: 160px; top: 25px; }
@@ -137,10 +140,10 @@
   .section5 .s5-icon { display: unset; text-align: center; }
   .section6 .contact p { font-size: 1.5rem; }
   .section6 .s6-contact { margin-top: 5%; text-align: center; padding: 0 14%; width: auto; }
-  .section7 .logo { text-align: center; }
+  .section7 .logo { text-align: center; padding-bottom: 0; }
   .section7 .sitemap { border-right: none; display: block; text-align: center; margin-bottom: 0; padding: 0 20%; }
   .section7 .sitemap h2 { font-size: 15px; }
-  .section7 .sitemap p { font-size: 13px; }
+  .section7 .sitemap p { font-size: 13px; padding: 0.3rem; }
   .footer ul { font-size: 15px; }
   .footer li { display: flex; justify-content: center; margin: 5px 0; }
   .footer .copyright { text-align: center; } }
