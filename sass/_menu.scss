@@ -384,7 +384,9 @@ $white: #fff;
     border-radius: 50%;
   }
 
-
+  .quote{
+    text-align: center;
+  }
 
   .quote img{
     border-radius: 0;
@@ -400,6 +402,7 @@ $white: #fff;
     font-style: italic;
     color: $lightgray;
     margin-left: 10px;
+    margin-top: 10%;
   }
 
   .left{
@@ -485,10 +488,24 @@ $white: #fff;
     font-size: 13px;
   }
 
+
+}
+
+.footer-btn{
+  transform: rotate(180deg);
+  position: absolute;
+  width: 100%;
+
+  img{
+    text-align: center;
+  }
+
 }
 
 .footer{
   background-color: #DADADA;
+
+
 
   ul{
     list-style-type: none;
@@ -535,11 +552,21 @@ $white: #fff;
   margin: 30% 0;
 }
 
-.fadeInLeft_animation{
-  animation:fade-left 3s ease-in-out 1 forwards;
+.fadeToLeft{
+  animation:fadeToLeft 3s ease-in-out 1 forwards;
 }
 
-@keyframes fade-left{
+
+@keyframes fadeToLeft{
   0%{opacity:0; transform: translateX(25px)}
+  100%{opacity:1; transform:translate(0px)};
+}
+
+.fadeInRight_animation{
+  animation:fadeInRight 3s ease-in-out 1 forwards;
+}
+
+@keyframes fadeInRight{
+  0%{opacity:0; transform: translateX(-25px)}
   100%{opacity:1; transform:translate(0px)};
 }
