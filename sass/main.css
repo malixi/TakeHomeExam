@@ -4,8 +4,8 @@
 .landing_page .landing-title { position: absolute; text-transform: uppercase; font-size: 3rem; line-height: 50px; font-weight: 800; height: 30%; top: 30%; overflow: hidden; }
 .landing_page .h-1 { margin-top: 40%; animation: landing-title 5s linear infinite; }
 .landing_page .description p { top: 55%; position: absolute; width: 40%; font-size: 16px; line-height: 19px; font-weight: 300; }
-.landing_page .main-button { background-color: #D51130; position: absolute; top: 66%; text-decoration: none; color: #fff; font-weight: 700; text-align: center; padding: .5rem; width: 10rem; }
-.landing_page .logo img { margin: 10% 0; margin-top: 15%; }
+.landing_page .main-button { background-color: #D51130; position: absolute; top: 66%; text-decoration: none; color: #fff; font-weight: 700; text-align: center; padding: .5rem; width: 14rem; }
+.landing_page .logo img { margin: 10% 0; margin-top: 15%; width: 27rem; }
 .landing_page .button-down img { margin: 5% 0; }
 @keyframes landing-title { 0% { transform: translateY(0%); }
   25% { transform: translateY(-120%); }
